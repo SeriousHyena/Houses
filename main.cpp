@@ -31,8 +31,8 @@ public:
 
 private:
 
-	int numStories;
-	int numWindows;
+	int numStories=0;		//this has to be initialized or it will throw a warning
+	int numWindows=0;		//this has to be initialized or it will throw a warning
 	string color;
 };
 
